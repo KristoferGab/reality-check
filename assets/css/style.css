@@ -142,3 +142,10 @@ nav li a:hover {
     font-size: 1.25rem;
 }
 
+#summary > #vr-summary .summary-paragraph {
+    max-width: 300px;
+}
+
+#summary > #vr-summary .summary-paragraph span {
+    float: right;
+}
