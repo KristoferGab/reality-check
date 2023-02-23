@@ -61,9 +61,14 @@ nav li a:hover {
 
 /* landing page */
 
-#galaxy-img {
-    width: 100%;
-    height: auto;
+
+#background-image {
+    background-image: url("../images/pexels-miriam-espacio-110854.jpg");
+    background-color: #2E4159;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #welcome-heading {
