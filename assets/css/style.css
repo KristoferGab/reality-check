@@ -135,7 +135,7 @@ nav li a:hover {
     width: 100%;
 }
 
-#summary > #vr-summary h1, #summary > #mr-summary h1 {
+#vr-summary h1, #mr-summary h1 {
     float: left;
     margin-left: 50px;
     margin-right: 25px;
@@ -146,11 +146,11 @@ nav li a:hover {
     font-size: 1.25rem;
 }
 
-#summary > #vr-summary .summary-paragraph, #summary > #mr-summary .summary-paragraph {
+.summary-paragraph {
     max-width: 300px;
 }
 
-#summary > #vr-summary .summary-paragraph span, #summary > #mr-summary .summary-paragraph span {
+.summary-paragraph span {
     float: right;
 }
 
@@ -172,12 +172,4 @@ nav li a:hover {
     border: 3px solid #2E4159;
     border-radius: 50%;
     font-size: 1.25rem;
-}
-
-#summary > #ar-summary .summary-paragraph {
-    max-width: 300px;
-}
-
-#summary > #ar-summary .summary-paragraph span {
-    float: right;
 }
