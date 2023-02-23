@@ -12,8 +12,9 @@ body {
 #navbar {
     position: fixed;
     width: 100%;
-    height: 110px;
+    height: 75px;
     background-color: #fafafa;
+    color: #2E4159;
 }
 
 #navbar > h1 {
@@ -22,9 +23,9 @@ body {
     margin-top: 20px;
     margin-left: 50px;
     padding: 10px 20px;
-    border: 3px solid black;
+    border: 3px solid #2E4159;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 1.25rem;
 }
 
 nav {
@@ -37,6 +38,7 @@ nav ul {
 }
 
 nav li {
+    color: #2E4159;
     float: left;
     margin-top: 35px;
     margin-right: 50px;
@@ -50,7 +52,11 @@ nav li a {
 }
 
 nav li a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #2E4159;
+}
+
+#active {
+    border-bottom: 1px solid #2E4159;
 }
 
 /* landing page */
@@ -58,5 +64,12 @@ nav li a:hover {
 #galaxy-img {
     width: 100%;
     height: auto;
-    margin-top: 100px;
+}
+
+#welcome-heading {
+    position: absolute;
+    left: 120px;
+    top: 250px;
+    color: #fafafa;
+    background-color: #7b5284;
 }
