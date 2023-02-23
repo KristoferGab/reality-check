@@ -50,6 +50,13 @@ a {
     font-size: 1.25rem;
 }
 
+#navbar > #no-border {
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
 #navbar > h1 > a {
     text-decoration: none;
 }
@@ -196,6 +203,6 @@ nav li a:hover {
     border-radius: 50%;
 }
 
-#ar-summary #ar-span {
+/* #ar-summary #ar-span {
     float: left;
-}
+} */
