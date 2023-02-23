@@ -151,6 +151,7 @@ nav li a:hover {
 
 .summary-paragraph span {
     float: right;
+    text-align: left;
 }
 
 
@@ -179,4 +180,8 @@ nav li a:hover {
     object-fit: cover;
     border: 5px solid #3a3a3a;
     border-radius: 50%;
+}
+
+#ar-summary #ar-span {
+    float: left;
 }
