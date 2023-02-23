@@ -136,7 +136,6 @@ nav li a:hover {
 }
 
 #vr-summary h1, #mr-summary h1 {
-    float: left;
     margin-left: 50px;
     margin-right: 25px;
     vertical-align: middle;
@@ -161,15 +160,23 @@ nav li a:hover {
 #ar-summary {
     height: 160px;
     width: 100%;
+    text-align: right;
 }
 
 #summary > #ar-summary h1 {
-    float: left;
-    margin-left: 50px;
-    margin-right: 25px;
+    margin-right: 50px;
     vertical-align: middle;
     padding: 10px 20px;
     border: 3px solid #2E4159;
     border-radius: 50%;
     font-size: 1.25rem;
+}
+
+#summary #ar-summary img {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    object-fit: cover;
+    border: 5px solid #3a3a3a;
+    border-radius: 50%;
 }
