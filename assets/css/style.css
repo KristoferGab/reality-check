@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Rubik, sans-serif;
     font-weight: 300;
+    letter-spacing: 2px;
     color: #2E4159;
+}
+
+h1, h3 {
+    font-family: "Roboto Mono", sans-serif;
 }
 
 a {
