@@ -29,6 +29,10 @@ body {
     font-size: 1.25rem;
 }
 
+#navbar > h1 > a {
+    text-decoration: none;
+}
+
 nav {
     float: right;
 }
