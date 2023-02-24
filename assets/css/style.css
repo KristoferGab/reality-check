@@ -31,6 +31,10 @@ hr {
     width: 80%;
 }
 
+html {
+    scroll-padding-top: 180px;
+  }
+
 /* Navigation bar */
 
 #navbar {
@@ -215,13 +219,13 @@ nav li a:hover {
 
 /* Detailed section */
 
-#detailed {
+.detailed {
     width: 100%;
     height: 480px;
     margin-top: 75px;
 }
 
-#detailed div img {
+.detailed div img {
     width: 150px;
     height: 250px;
     object-fit: cover;
@@ -260,13 +264,13 @@ nav li a:hover {
 /* Times and Dates */
 
 
-#times {
+#meet-up {
     background: url("../images/pexels-miriam-espacio-110854.jpg") center center / cover no-repeat;
     width: 100%;
     overflow: hidden;
 }
 
-#times div {
+#meet-up div {
     color: #fafafa;
     background-color: #2E4159;
     opacity: .8;
