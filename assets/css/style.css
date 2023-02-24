@@ -224,9 +224,8 @@ nav li a:hover {
 #detailed div img {
     width: 150px;
     height: 250px;
-    margin-right: 25px;
     object-fit: cover;
-    display: inline-block;
+    margin: 0 20px;
 }
 
 #header-detailed {
