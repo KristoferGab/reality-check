@@ -245,7 +245,7 @@ nav li a:hover {
     width: 100%;
     height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #detailed-middle-section {
@@ -256,3 +256,4 @@ nav li a:hover {
 #iframe {
     margin: 20px;
 }
+
