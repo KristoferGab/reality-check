@@ -349,7 +349,7 @@ footer > ul > li > a {
     border-radius: 5px;
     outline: 2px solid #2E4159;
     outline-offset: 2px;
-    width: 100%;
+    width: 99.5%;
 }
 
 /* Media query for screen size of max 1200px */
