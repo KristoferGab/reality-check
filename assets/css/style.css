@@ -254,7 +254,7 @@ nav li a:hover {
     justify-content: space-evenly;
 }
 
-#detailed-middle-section {
+.detailed-middle-section {
     width: 50%;
     text-align: center;
 }
