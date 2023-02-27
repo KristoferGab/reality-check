@@ -360,4 +360,50 @@ footer > ul > li > a {
         display: none;
     }
 
+    .detailed-middle-section {
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        padding: 0 100px;
+    }
+
+}
+
+/* Media query for screen size of max 1020px */
+
+@media screen and (max-width: 1020px) {
+
+    #navbar > #no-border {
+        display: none;
+    }
+
+}
+
+/* Media query for screen size of max 760px */
+
+@media screen and (max-width: 760px) {
+
+    #navbar {
+        height: 180px;    
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    #navbar > #no-border {
+        display: inline-block;
+    }
+
+}
+
+/* Media query for screen size of max 600px */
+
+@media screen and (max-width: 590px) {
+
+    #navbar > #no-border {
+        display: none;
+    }
+
 }
