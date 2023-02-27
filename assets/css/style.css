@@ -409,6 +409,11 @@ footer > ul > li > a {
         width: 50%;
     }
 
+    iframe {
+        width: 448px;
+        height: 252px;
+    }
+
 }
 
 /* Media query for screen size of max 600px */
@@ -419,6 +424,51 @@ footer > ul > li > a {
         display: none;
     }
 
+    iframe {
+        width: 358.4px;
+        height: 201.6px;
+    }
 
+    nav {
+        width: 95%;
+    }
+
+    #welcome-heading {
+        left: 50px;
+        top: 250px;
+    }
+    
+    #support-heading {
+        left: 120px;
+    }
+
+}
+
+
+/* Media query for screen size of max 530px */
+
+@media screen and (max-width: 530px) {
+
+
+    nav li {
+        margin-right: 25px;
+    }
+
+    #welcome-heading {
+        left: 10px;
+        top: 250px;
+    }
+    
+    #support-heading {
+        left: 80px;
+    }
+
+    #summary {
+        height: 800px;
+    }
+
+    #vr-summary h1, #mr-summary h1, #ar-summary h1 {
+        display: none;
+    }
 
 }
