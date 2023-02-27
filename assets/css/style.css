@@ -156,6 +156,7 @@ nav li a:hover {
 .center {
     display: inline-block;
     vertical-align: middle;
+    max-width: 80%;
 }
 
 /*  */
@@ -255,7 +256,6 @@ nav li a:hover {
 }
 
 .detailed-middle-section {
-    width: 50%;
     text-align: center;
 }
 
@@ -362,10 +362,8 @@ footer > ul > li > a {
 
     .detailed-middle-section {
         display: block;
-        width: 100%;
         margin: 20px auto;
         text-align: center;
-        padding: 0 100px;
     }
 
 }
@@ -377,6 +375,8 @@ footer > ul > li > a {
     #navbar > #no-border {
         display: none;
     }
+
+    
 
 }
 
@@ -396,14 +396,29 @@ footer > ul > li > a {
         display: inline-block;
     }
 
+    #vr-summary, #mr-summary, #ar-summary {
+        display: flex;
+        margin: 100px auto;
+    }
+
+    #summary {
+        height: 740px;
+    }
+
+    #meet-up div {
+        width: 50%;
+    }
+
 }
 
 /* Media query for screen size of max 600px */
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 600px) {
 
     #navbar > #no-border {
         display: none;
     }
+
+
 
 }
