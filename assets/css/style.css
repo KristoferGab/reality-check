@@ -354,3 +354,10 @@ footer > ul > li > a {
 
 /* Media query for screen size of max 1200px */
 
+@media screen and (max-width: 1200px) {
+    
+    .detailed div img {
+        display: none;
+    }
+
+}
