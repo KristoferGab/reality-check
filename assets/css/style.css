@@ -414,6 +414,11 @@ footer > ul > li > a {
     }
 
     #navbar > h1 {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    #navbar > h1 {
         display: inline-block;
     }
 
@@ -449,11 +454,6 @@ footer > ul > li > a {
         margin-right: 25px;
     }
 
-    #navbar > h1 {
-        font-size: 1rem;
-        margin-left: 10px;
-    }
-
     #welcome-heading {
         left: 10px;
         top: 250px;
@@ -471,6 +471,37 @@ footer > ul > li > a {
         display: none;
     }
 
-
+    iframe {
+        width: 286.72px;
+        height: 161.28px;
+    }
     
+}
+
+/* Media query for screen size of max 375px */
+
+@media screen and (max-width: 376px) {
+
+    #navbar {
+        font-size: 0.8rem;  
+    }
+
+    nav li {
+        margin-right: 15px;
+    }
+
+    #navbar > h1 {
+        font-size: 0.8rem;
+        margin-left: 5px;
+    }
+
+    #summary {
+        height: 900px;
+    }
+
+    iframe {
+        width: 229.376px;
+        height: 129.024px;
+    }
+
 }
