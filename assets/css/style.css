@@ -207,7 +207,7 @@ nav li a:hover {
     width: 100%;
 }
 
-#vr-summary h1, #mr-summary h1 {
+#vr-summary h2, #mr-summary h2 {
     margin-left: 50px;
     margin-right: 25px;
     vertical-align: middle;
@@ -239,7 +239,7 @@ nav li a:hover {
     margin: 20px 0;
 }
 
-#summary > #ar-summary h1 {
+#summary > #ar-summary h2 {
     margin-right: 50px;
     vertical-align: middle;
     padding: 10px 20px;
@@ -523,7 +523,7 @@ footer > ul > li > a {
         height: 800px;
     }
 
-    #vr-summary h1, #mr-summary h1, #ar-summary h1 {
+    #vr-summary h2, #mr-summary h2, #ar-summary h2 {
         display: none;
     }
 
