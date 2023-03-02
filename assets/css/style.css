@@ -103,7 +103,7 @@ nav li a:hover {
 /* landing page */
 
 #background-image {
-    background-image: url("../images/pexels-miriam-espacio-110854 (2).webp");
+    background-image: url("../images/pexels-miriam-espacio-110854(2).webp");
     background-color: #2E4159;
     height: 600px;
     background-position: center;
@@ -309,7 +309,7 @@ nav li a:hover {
 
 
 #meet-up {
-    background: url("../images/pexels-miriam-espacio-110854 (3).webp") center center / cover no-repeat;
+    background: url("../images/pexels-miriam-espacio-110854(3).webp") center center / cover no-repeat;
     width: 100%;
     overflow: hidden;
 }
