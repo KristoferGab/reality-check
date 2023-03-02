@@ -276,7 +276,7 @@ nav li a:hover {
     border-radius: 5px;
 }
 
-#header-detailed {
+.header-detailed {
     display: block;
     height: 26.4px;
     width: 44px;
