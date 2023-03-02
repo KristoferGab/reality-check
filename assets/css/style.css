@@ -385,17 +385,17 @@ footer > ul > li > a {
 
 @media screen and (max-width: 760px) {
 
-    #navbar {
-        height: 180px;    
-    }
+    /* #navbar {
+        font-size: 0.8rem;  
+    } */
 
-    nav {
+    /* nav {
         width: 90%;
-    }
+    } */
 
-    #navbar > #no-border {
+    /* #navbar > #no-border {
         display: inline-block;
-    }
+    } */
 
     #vr-summary, #mr-summary, #ar-summary {
         display: flex;
@@ -421,17 +421,17 @@ footer > ul > li > a {
 
 @media screen and (max-width: 600px) {
 
-    #navbar > #no-border {
-        display: none;
+    #navbar {
+        font-size: 0.8rem;  
+    }
+
+    #navbar > h1 {
+        display: inline-block;
     }
 
     iframe {
         width: 358.4px;
         height: 201.6px;
-    }
-
-    nav {
-        width: 95%;
     }
 
     #welcome-heading {
@@ -441,6 +441,12 @@ footer > ul > li > a {
     
     #support-heading {
         left: 120px;
+    }
+
+    #summary {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90%;
     }
 
 }
