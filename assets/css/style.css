@@ -560,9 +560,47 @@ footer > ul > li > a {
         height: 900px;
     }
 
+    #vr-summary, #ar-summary, #mr-summary {
+        height: 200px;
+    }
+
     .iframe {
         width: 229.376px;
         height: 129.024px;
+    }
+
+    #detailed-vr {
+        height: 800px;
+        }
+
+    #detailed-ar {
+        height: 680px;
+        }
+
+}
+
+/* Media query for screen size of max 320px */
+
+@media screen and (max-width: 321px) {
+
+    #summary {
+        height: 1100px;
+    }
+
+    #vr-summary, #ar-summary, #mr-summary {
+        height: 280px;
+    }
+
+    #detailed-vr {
+        height: 950px;
+    }
+
+    #detailed-ar, #detailed-mr {
+        height: 750px;
+    }
+
+    #navbar > h1 {
+        display: none;
     }
 
 }
