@@ -300,8 +300,11 @@ nav li a:hover {
     text-align: center;
 }
 
-#iframe {
+.iframe {
+    width: 560;
+    height: 315;
     margin: 20px;
+    border: 0;
 }
 
 
@@ -440,7 +443,7 @@ footer > ul > li > a {
         width: 50%;
     }
 
-    iframe {
+    .iframe {
         width: 448px;
         height: 252px;
     }
@@ -464,7 +467,7 @@ footer > ul > li > a {
         display: inline-block;
     }
 
-    iframe {
+    .iframe {
         width: 358.4px;
         height: 201.6px;
     }
@@ -513,7 +516,7 @@ footer > ul > li > a {
         display: none;
     }
 
-    iframe {
+    .iframe {
         width: 286.72px;
         height: 161.28px;
     }
@@ -541,7 +544,7 @@ footer > ul > li > a {
         height: 900px;
     }
 
-    iframe {
+    .iframe {
         width: 229.376px;
         height: 129.024px;
     }
