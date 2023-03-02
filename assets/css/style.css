@@ -12,7 +12,7 @@ body {
     color: #2E4159;
 }
 
-h1, h3 {
+h1, h2 {
     font-family: "Roboto Mono", sans-serif;
     letter-spacing: 0px;
 }
@@ -124,6 +124,8 @@ nav li a:hover {
 }
 
 #support-heading {
+    font-size: 1.17rem;
+    font-family: "Robot Mono", sans-serif;
     position: absolute;
     left: 250px;
     top: 350px;
