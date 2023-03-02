@@ -196,6 +196,7 @@ nav li a:hover {
     height: 160px;
     width: 100%;
     text-align: right;
+    margin: 20px 0;
 }
 
 #summary > #ar-summary h1 {
