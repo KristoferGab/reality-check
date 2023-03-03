@@ -198,28 +198,38 @@
 
     <hr>
     <section id="meet-up">
-        <div>
+
+        <div id="meet-up-text">
+            <h2 class="meet-up-text">Sounds interesting? Then please Join Us!</h2>
+            <p class="meet-up-text">We are currently conducting [4] four meet-ups every week and would love if you could <strong>Join In</strong> on them!
+                Here you can see the different subjects, days and times that we meet. 
+                Fill ut the form below with your name, email and which day (or days) that fits you the best! (please
+                be aware of the requirements for each meet-up)
+            </p>
+        </div>
+
+        <div class="days">
             <h2>Virtual Coffe <i class="fas fa-mug-hot" aria-hidden="true"></i></h2>
             <h3>Monday</h3>
             <h3>#Slack</h3>
             <h3>VR glasses required</h3>
             <h3>13:00</h3>
         </div>
-        <div>
+        <div class="days">
             <h2>Augmented Tea <i class="fa-solid fa-couch" aria-hidden="true"></i></h2>
             <h3>Wednesday</h3>
             <h3>#Your livingroom</h3>
             <h3>AR glasses required</h3>
             <h3>13:30</h3>
         </div>
-        <div>
+        <div class="days">
             <h2>Mix it up! <i class="fa-regular fa-lightbulb" aria-hidden="true"></i></h2>
             <h3>Friday</h3>
             <h3>#Anywhere</h3>
             <h3>Be creative!</h3>
             <h3>16:00</h3>
         </div>
-        <div>
+        <div class="days">
             <h2>Gamers night <i class="fa-solid fa-gamepad" aria-hidden="true"></i></h2>
             <h3>Saturday</h3>
             <h3>#Steam</h3>
@@ -239,6 +249,37 @@
             <label for="email">Email Address: *</label>
             <input type="email" name="email" id="email" placeholder="Enter your email..." required>
 
+            <table>
+                <tr>
+                    <td>
+                        <label for="monday">Monday</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="day" id="monday" class="table-space">
+                    </td>
+                    <td>
+                        <label for="wednesday">Wednesday</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="day" id="wednesday">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="friday">Friday</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="day" id="friday" class="table-space">
+                    </td>
+                    <td>
+                        <label for="saturday">Saturday</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="day" id="saturday">
+                    </td>
+                </tr>
+            </table>
+            
             <input type="submit" value="Join In!" id="submit-button">
         </form>
     </div>

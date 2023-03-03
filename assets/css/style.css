@@ -326,7 +326,7 @@ nav li a:hover {
     overflow: hidden;
 }
 
-#meet-up div {
+#meet-up .days {
     color: #fafafa;
     background-color: #2E4159;
     opacity: .8;
@@ -339,11 +339,25 @@ nav li a:hover {
     box-sizing: border-box;
 }
 
+#meet-up #meet-up-text {
+    margin-top: 40px;
+}
+
+#meet-up #meet-up-text .meet-up-text {
+    color: #fafafa;
+    text-align: center;
+    background-color: #2E4159;
+    opacity: .8;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #fafafa;
+}
+
 #form {
     background-color: #2E4159;
     color: #fafafa;
     width: 300px;
-    height: 300px;
+    height: 330px;
     margin: 50px auto;
     border-radius: 5px;
     padding: 20px;
@@ -371,6 +385,10 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+input[type="checkbox" i] {
+    margin: 3px 50px 3px 4px;
 }
 
 #submit-button {
@@ -456,7 +474,7 @@ footer > ul > li > a {
         height: 740px;
     }
 
-    #meet-up div {
+    #meet-up .days {
         width: 50%;
     }
 
