@@ -61,16 +61,21 @@ We have included several features in this one-page website about the different t
 ![Footer](assets/images/readme-img/footer-reality-check.JPG)
 
 
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 
-- The detailed section shall in the future be located att the same space on the site with the JavaScript functionality to change information with radio-button choices instead of having to scroll further down than nessessary.
+- The detailed section shall in the future be located att the same space on the site with the JavaScript functionality to change information with radio-button choices instead of having to scroll further down.
 
 ## Testing 
+
+This website is built for Desktop viewing in mind and is therefor optimized for this purpose. Testing has been done during the developments different stages with lighthouse as a main resource to ensure the best performance possible at the same time as accessibility and best pratices are followed and addherd to. Chrome dev-tools was the main source for designing the site where the Inspect window was constantly being observed to ensure the intended results. On the picture below the result of the finnished website can be viewed after running it through lighthouse one last time before deployment.
+
+![Lighthouse for desktop](assets/images/readme-img/lighthouse-results-desktop-reality-check.JPG)
+
+While desktop was the focus for the build, media queries have been added to make sure that it works on other devices as well, such as tablet and mobile. Due to the fixed navbar, detaild section, summary section, and to ensure high UX on different sized devices, as many as seven queries were made. It works end responds well on different sizes but is not intended do be used on small mobile devices.
+
+Even if the function is there on mobile devices it loses its performance, mostly due to img sizes optimized for desktop as can be seen on the image below.
+
+![Lighthouse for mobilde](assets/images/readme-img/lighthouse-results-mobile-reality-check.JPG)
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
