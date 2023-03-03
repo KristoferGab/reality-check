@@ -6,8 +6,6 @@ Reality Check is your one stop destination for getting all the different tech re
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 We have included several features in this one-page website about the different tech realities out there. These features will be categorized in separate titles to enhance its intended use and functions.
 
 ### Existing Features
@@ -19,46 +17,50 @@ We have included several features in this one-page website about the different t
 
 ![Nav Bar](assets/images/readme-img/navbar-reality-check.JPG)
 
-- __The landing page image__
+- __The landing page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing page is welcoming you with a text explaining what the site is all about including a visualy apealing picture of the univers and a image of a child in awe using a VR-headset to strengthen what the sites is for.
+  - This section sets the atmosphere and mood through design and images that follow through the rest of the site.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](assets/images/readme-img/landing-page-universe-img-reality-check.JPG)
 
-- __Club Ethos Section__
+- __Summary Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section is a short summary of the three main pillars VR, AR and MR that includes a small image and a text that summarises, with few words, describes their meaning nad use.
+  - This will ensure to catch the users interest and they will easeier find which if these categories (if not all) that they wish to continue to read and learn more about. Links are also inkluded to wiki for further reading should this be of interest.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Sumary Section](assets/images/readme-img/summary-section-reality-check.JPG)
 
-- __Meetup Times section__
+- __Detailed Section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  - This section goes into more detail about each categorie with more text that explaines its use and purpose. A video is also included for users that are more into visual learning than reading. is a short summary of the three main pillars VR, AR and MR that includes a small image and a text that summarises, with few words, describes their meaning nad use.
+  - This is also where the links in the navigations bar will take you.
+  - These three detailed sections will ensure to further extend users interest and knowledge about the subjects.
+ 
+
+![Detailed Section](assets/images/readme-img/detailed-section-vr-reality-check.JPG)
+
+- __Meet-up section__
+
+  - This section will allow the user to see exactly when the meet-ups will take place, if there are any requirements for that particular day and where they will be held. 
   - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meet-up Times](assets/images/readme-img/meet-up-section-reality-check.JPG)
+
+- __Join-In form section__
+
+  - This form is connected to and followed right after the meet-up section to make it fast and simple for interested users to sign up for the different days and topics that fits them. The user will be asked to fill out their name, last name, email adress and what days they would like to Join In on.
+
+![Join In](assets/images/readme-img/contact-form-reality-check.JPG)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Reality | Check. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/images/readme-img/footer-reality-check.JPG)
 
-- __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -66,7 +68,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- The detailed section shall in the future be located att the same space on the site with the JavaScript functionality to change information with radio-button choices instead of having to scroll further down than nessessary.
 
 ## Testing 
 
