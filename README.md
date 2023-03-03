@@ -120,18 +120,89 @@ The live link can be found here - https://kristofergab.github.io/reality-check/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+In this section all the webpages that where used as help for the development of this site will be listed. First the link to the website will be presented and then the information what the site was used for explained right after the link.
+
+https://www.w3schools.com/css/css3_images.asp
+https://www.w3schools.com/css/css3_object-fit.asp
+https://www.w3schools.com/css/css_align.asp
+for imgages
+
+https://stackoverflow.com/questions/52037809/add-alpha-channel-to-hex-color-declared-on-css-variable
+for opacity on hex
+
+https://blog.logrocket.com/how-create-double-border-css/
+https://developer.mozilla.org/en-US/docs/Web/CSS/border
+for dubble borders
+
+https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
+for centering div content
+
+https://stackoverflow.com/questions/36337086/my-youtube-video-wont-show-in-iframe
+for embedding youtube
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form
+for styling forms
+
+Love Running project
+for Times section - copy and modify code for meet up,
+and for placement of FA script
+
+https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/
+for fixing fixed navbar scrolldown problem
+
+https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
+for lazy loading
+
+https://fontawesome.com/v4/accessibility/
+for area-hidden
+
+https://css-tricks.com/lazy-load-embedded-youtube-videos/
+for srcdoc on iframe
+Code copied:
+`srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/Y8Wp3dafaMQ?autoplay=1><img src=https://img.youtube.com/vi/Y8Wp3dafaMQ/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"`
+
+https://www.w3schools.com/Css/css3_mediaqueries_ex.asp
+for hiding img on media query
+
+https://cloudconvert.com/jpg-to-webp
+for converting jpg to webp
+
+http://zuga.net/articles/html-heading-elements/
+for h3 size in rem
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity
+for img hover overlay
+copied style code and modified
+
+https://stackoverflow.com/questions/1818249/form-with-no-action-and-where-enter-does-not-reload-page
+for form without action javascript
+javascript:void(0)
+
+https://medium.com/@aurelien.delogu/401-error-on-a-webmanifest-file-cb9e3678b9f3
+for crossreference on favicons to remove 401 error
+
+- The text for the Summary section was taken from Wikipedia:
+https://en.wikipedia.org/wiki/Virtual_reality
+https://en.wikipedia.org/wiki/Augmented_reality
+https://en.wikipedia.org/wiki/Mixed_reality
+
+- The text for the Detailed section was taken from an article written by Robert Sheldon
+https://www.techtarget.com/whatis/definition/virtual-reality
+for text description in detailed section
+
+- The icons used on the site were all taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
+- All images used on the website are from the open source site https://www.pexels.com/ and extra credit given to the photographers kind enough to let us use these images for free:
+- Ali Pazani
+- Harsch Shivam
+- Jessica Lewis Creative
+- Michelangelo Buonarroti
+- Miriam Espacio
+- Moose Photos
+- Shvets Production
+- Tima Miroshnichenko
