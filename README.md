@@ -2,7 +2,7 @@
 
 Reality Check is your one stop destination for getting all the different tech realities explained in just one page! Our goal is to create a viaualy apealing and simple summary to clairify what VR, AR and MR is all about with pictures, videos and explanatory texts as aid. We target people that does not have much prior knowledge of the subject at hand but are intrested in learning more and has a tech-sence and interest. Since we are conducting weekly meet-ups we try to encourage as many people to join us as possible through our contact form at the end of the page.
 
-![Responsive Mockup for Reality Check](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup for Reality Check](assets/images/readme-img/responsive-design-reality-check.JPG)
 
 ## Features 
 
@@ -65,7 +65,7 @@ We have included several features in this one-page website about the different t
 
 - The detailed section shall in the future be located att the same space on the site with the JavaScript functionality to change information with radio-button choices instead of having to scroll further down.
 
-## Testing 
+## __Testing__ 
 
 This website is built for Desktop viewing in mind and is therefor optimized for this purpose. Testing has been done during the developments different stages with lighthouse as a main resource to ensure the best performance possible at the same time as accessibility and best pratices are followed and addherd to. Chrome dev-tools was the main source for designing the site where the Inspect window was constantly being observed to ensure the intended results. On the picture below the result of the finnished website can be viewed after running it through lighthouse one last time before deployment.
 
@@ -77,36 +77,45 @@ Even if the function is there on mobile devices it loses its performance, mostly
 
 ![Lighthouse for mobilde](assets/images/readme-img/lighthouse-results-mobile-reality-check.JPG)
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+After deployment the site has been tested on six different screen sizes with good and functional results:
+- Desktop Display hp 24" screen
+- Large laptop with 20" screen
+- Iphone 11 Pro
+- Huawei P20 Pro
+- Iphone SE
+- Iphone 8
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The site is also tested on multiple web browsers:
+- Chrome
+- Edge
+- Firefox
+- Safari
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Safari Bugs
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+After testing on Safari a few bugs were discovered:
+- The sites logos innerradius is squared insted of round. This is because the css command outline is not yet released.
+- When rotating the scaling of the detailed section is not correct and the iframes overlap underlying section.
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkristofergab.github.io%2Freality-check%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [W3C (Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkristofergab.github.io%2Freality-check%2F&usermedium=all&vextwarning=&warning=1)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+Issues mentioned under testing section related to Safari is yet to be fixed. The outline issue is deemed acceptable. However is the overlaping issue something that has to be handled in future release.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the source section drop-down menu, select the main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://kristofergab.github.io/reality-check/ 
 
 
 ## Credits 
