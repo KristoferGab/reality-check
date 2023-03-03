@@ -1,23 +1,23 @@
-# Reality Check
+# Reality | Check
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+Reality Check is your one stop destination for getting all the different tech realities explained in just one page! Our goal is to create a viaualy apealing and simple summary to clairify what VR, AR and MR is all about with pictures, videos and explanatory texts as aid. We target people that does not have much prior knowledge of the subject at hand but are intrested in learning more and has a tech-sence and interest. Since we are conducting weekly meet-ups we try to encourage as many people to join us as possible through our contact form at the end of the page.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup for Reality Check](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
+We have included several features in this one-page website about the different tech realities out there. These features will be categorized in separate titles to enhance its intended use and functions.
+
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - This navigation bar is fixed at the top of the page and is fully responsive for different screens and will make sure to follow you along as you read through the sites information. It will help link you through the sites different sections Home VR AR MR and ofcourse the Meet-up section.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/images/readme-img/navbar-reality-check.JPG)
 
 - __The landing page image__
 
