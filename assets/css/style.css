@@ -111,7 +111,7 @@ nav li a:hover {
 /* ----- Landing page ----- */
 
 #background-image {
-    background-image: url("../images/pexels-miriam-espacio-110854(2).webp");
+    background-image: url("../images/pexels-miriam-espacio-110854(2).webp"); /* All images are from https://www.pexels.com/ and are credited in README.md*/
     background-color: #2E4159;
     height: 600px;
     background-position: center;
@@ -331,7 +331,7 @@ All code down to next section "VR and MR Summary" */
 
 /* ----- Times and Dates ----- */
 
-
+/* meet-up section copied from Love Running project and credit to Code Institute up to but not including form. Modified to fit this site */
 #meet-up {
     background: url("../images/pexels-miriam-espacio-110854(3).webp") center center / cover no-repeat;
     width: 100%;
@@ -364,6 +364,7 @@ All code down to next section "VR and MR Summary" */
     margin: 20px auto;
     border: 2px solid #fafafa;
 }
+
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form for styling forms. 
 Code for input[type=x] strictly copied and modified from this site */
 #form {
