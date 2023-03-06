@@ -1,3 +1,9 @@
+/* 
+Sections are devided into the same structure as HTML by deviders that are marked with ----- in front and after comment text.
+Credits for copied code and code inspiraion/help will be close to such code. Please also read the Credits section in README.md
+*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik&display=swap');
 
 * {
@@ -32,10 +38,12 @@ hr {
 }
 
 html {
-    scroll-padding-top: 140px;
+    scroll-padding-top: 140px; /* for fixing scrolldown-problem with fixed navbar. Copied from https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/  */
   }
 
-/* Navigation bar */
+/* ----- Heading section ----- */
+
+/* --- Navigation bar --- */
 
 #navbar {
     position: fixed;
@@ -54,7 +62,7 @@ html {
     padding: 10px 20px;
     border: 3px solid #2E4159;
     border-radius: 40%;
-    outline: 2px solid #7b5284;
+    outline: 2px solid #7b5284; /* https://developer.mozilla.org/en-US/docs/Web/CSS/border for creating dubble borders for sites logo */
     outline-offset: -10px;
     font-size: 1.25rem;
 }
@@ -100,7 +108,7 @@ nav li a:hover {
     border-bottom: 1px solid #2E4159;
 }
 
-/* landing page */
+/* ----- Landing page ----- */
 
 #background-image {
     background-image: url("../images/pexels-miriam-espacio-110854(2).webp");
@@ -149,7 +157,7 @@ nav li a:hover {
 
 }
 
-/* Summary section */
+/* ----- Summary section ----- */
 
 #summary {
     width: 100%;
@@ -176,6 +184,10 @@ nav li a:hover {
 .round-img {
     position: relative;
 }
+
+/* code for image hover overlay is copied and modified from 
+https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity 
+All code down to next section "VR and MR Summary" */
 
 .image {
     opacity: 1;
@@ -211,7 +223,7 @@ nav li a:hover {
     padding: 8px 16px;
   }
 
-/*  */
+/* --- VR and MR Summary --- */
 
 
 #vr-summary, #mr-summary {
@@ -241,7 +253,7 @@ nav li a:hover {
 }
 
 
-/*  */
+/* --- AR summary --- */
 
 
 #ar-summary {
@@ -271,7 +283,7 @@ nav li a:hover {
     border-radius: 50%;
 }
 
-/* Detailed section */
+/* ----- Detailed section ----- */
 
 .detailed {
     width: 100%;
@@ -317,7 +329,7 @@ nav li a:hover {
 }
 
 
-/* Times and Dates */
+/* ----- Times and Dates ----- */
 
 
 #meet-up {
@@ -329,7 +341,7 @@ nav li a:hover {
 #meet-up .days {
     color: #fafafa;
     background-color: #2E4159;
-    opacity: .8;
+    opacity: .8; /* for opacity on hex https://stackoverflow.com/questions/52037809/add-alpha-channel-to-hex-color-declared-on-css-variable */
     width: 25%;
     height: 300px;
     float: left;
@@ -352,7 +364,8 @@ nav li a:hover {
     margin: 20px auto;
     border: 2px solid #fafafa;
 }
-
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form for styling forms. 
+Code for input[type=x] strictly copied and modified from this site */
 #form {
     background-color: #2E4159;
     color: #fafafa;
@@ -395,7 +408,7 @@ input[type="checkbox" i] {
     font-weight: bold;
 }
 
-/* Footer */
+/* ----- Footer ----- */
 
 footer {
     width: 100%;
@@ -427,6 +440,9 @@ footer > ul > li > a {
     width: 99.5%;
 }
 
+/* ----- Media Queries ----- */
+
+
 /* Media query for screen size of max 1200px */
 
 @media screen and (max-width: 1200px) {
@@ -448,7 +464,7 @@ footer > ul > li > a {
 @media screen and (max-width: 1020px) {
 
     #navbar > #no-border {
-        display: none;
+        display: none; /* https://www.w3schools.com/Css/css3_mediaqueries_ex.asp for hiding img on media query */
     }
 
     #detailed-vr {
@@ -527,8 +543,6 @@ footer > ul > li > a {
         width: 90%;
     }
 
-    
-
 }
 
 
@@ -566,7 +580,6 @@ footer > ul > li > a {
     #detailed-vr {
         height: 740px;
         }
-
     
 }
 
