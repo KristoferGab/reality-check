@@ -1,6 +1,6 @@
 # Reality | Check
 
-Reality Check is your one stop destination for getting all the different tech realities explained in just one page! Our goal is to create a viaualy apealing and simple summary to clairify what VR, AR and MR is all about with pictures, videos and explanatory texts as aid. We target people that does not have much prior knowledge of the subject at hand but are intrested in learning more and has a tech-sence and interest. Since we are conducting weekly meet-ups we try to encourage as many people to join us as possible through our contact form at the end of the page.
+Reality Check is your one stop destination for getting all the different tech realities explained in just one page! Our goal is to create a visually appealing and simple summary to clarify what VR, AR and MR is all about with pictures, videos and explanatory texts as aid. We target people that does not have much prior knowledge of the subject at hand but are interested in learning more and has a tech-scene and interest. Since we are conducting weekly meet-ups we try to encourage as many people to join us as possible through our contact form at the end of the page.
 
 ![Responsive Mockup for Reality Check](assets/images/readme-img/responsive-design-reality-check.JPG)
 
@@ -48,9 +48,9 @@ Reality Check is an informative website that aims at increasing the understandin
 
 #### Client Goals
 
-- To get the information about VR, AR and MR out to the puplic.
-- To ensure that this information is avalable:
-  - for people absorbing information through different scenses.
+- To get the information about VR, AR and MR out to the public.
+- To ensure that this information is available:
+  - for people absorbing information through different senses.
   - for different devices and screen sizes.
 - To get more people to join in on their meet-ups through signing up through the site.
 
@@ -70,9 +70,9 @@ Reality Check is an informative website that aims at increasing the understandin
 ---
 ### Color Scheme
 
-The color scheme was chosen by using th eye dropper tool from Chrome dev-tools on the hero image. Since the image was chosen first the theam was built around this color palettes. 
+The color scheme was chosen by using the eye dropper tool from Chrome dev-tools on the hero image. Since the image was chosen first the theme was built around this color palettes. 
 
-It was checked on [mycolor.space](https://mycolor.space/?hex=%232E4159&sub=1) to ensure that the gradients where matching. Also som #hex colors where taken from the Love Running project delivered by Code Institute (off-white and dark-grey). 
+It was checked on [mycolor.space](https://mycolor.space/?hex=%232E4159&sub=1) to ensure that the gradients where matching. Also some #hex colors where taken from the Love Running project delivered by Code Institute (off-white and dark-grey). 
 
 
 ### Typography
@@ -100,32 +100,30 @@ We have included several features in this one-page website about the different t
 
 - __Navigation Bar__
 
-  - This navigation bar is fixed at the top of the page and is fully responsive for different screens and will make sure to follow you along as you read through the sites information. It will help link you through the sites different sections Home VR AR MR and ofcourse the Meet-up section.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - This navigation bar is fixed at the top of the page and is fully responsive for different screens and will make sure to follow you along as you read through the sites information. It will help link you through the sites different sections Home VR AR MR and of course the Meet-up section.
 
 ![Nav Bar](assets/images/readme-img/navbar-reality-check.JPG)
 
 - __The landing page__
 
-  - The landing page is welcoming you with a text explaining what the site is all about including a visualy apealing picture of the univers and a image of a child in awe using a VR-headset to strengthen what the sites is for.
+  - The landing page is welcoming you with a text explaining what the site is all about including a visually appealing picture of the universe and an image of a child in awe using a VR-headset to strengthen what the sites is for.
   - This section sets the atmosphere and mood through design and images that follow through the rest of the site.
 
 ![Landing Page](assets/images/readme-img/landing-page-universe-img-reality-check.JPG)
 
 - __Summary Section__
 
-  - This section is a short summary of the three main pillars VR, AR and MR that includes a small image and a text that summarises, with few words, describes their meaning nad use.
-  - This will ensure to catch the users interest and they will easeier find which if these categories (if not all) that they wish to continue to read and learn more about. Links are also inkluded to wiki for further reading should this be of interest.
+  - This section is a short summary of the three main pillars VR, AR and MR that includes a small image and a text that summarizes, with few words, describes their meaning and use.
+  - This will ensure to catch the users interest and they will easier find which if these categories (if not all) that they wish to continue to read and learn more about. Links are also included to wiki for further reading should this be of interest.
 
-![Sumary Section](assets/images/readme-img/summary-section-reality-check.JPG)
+![Summary Section](assets/images/readme-img/summary-section-reality-check.JPG)
 
 - __Detailed Section__
 
-  - This section goes into more detail about each categorie with more text that explaines its use and purpose. A video is also included for users that are more into visual learning than reading. is a short summary of the three main pillars VR, AR and MR that includes a small image and a text that summarises, with few words, describes their meaning nad use.
+  - This section goes into more detail about each category with more text that explains its use and purpose. A video is also included for users that are more into visual learning than reading. is a short summary of the three main pillars VR, AR and MR that includes a small image and a text that summarizes, with few words, describes their meaning and use.
   - This is also where the links in the navigations bar will take you.
   - These three detailed sections will ensure to further extend users interest and knowledge about the subjects.
  
-
 ![Detailed Section](assets/images/readme-img/detailed-section-vr-reality-check.JPG)
 
 - __Meet-up section__
@@ -137,7 +135,7 @@ We have included several features in this one-page website about the different t
 
 - __Join-In form section__
 
-  - This form is connected to and followed right after the meet-up section to make it fast and simple for interested users to sign up for the different days and topics that fits them. The user will be asked to fill out their name, last name, email adress and what days they would like to Join In on.
+  - This form is connected to and followed right after the meet-up section to make it fast and simple for interested users to sign up for the different days and topics that fits them. The user will be asked to fill out their name, last name, email address and what days they would like to Join In on.
 
 ![Join In](assets/images/readme-img/contact-form-reality-check.JPG)
 
@@ -151,7 +149,7 @@ We have included several features in this one-page website about the different t
 
 ### Features Left to Implement
 
-- The detailed section shall in the future be located att the same space on the site with the JavaScript functionality to change information with radio-button choices instead of having to scroll further down.
+- The detailed section shall in the future be located at the same space on the site with the JavaScript functionality to change information with radio-button choices instead of having to scroll further down.
 
 ### Accessibility
 
@@ -159,7 +157,7 @@ During the development process the accessibility has been considered througout t
 - Using aria-labels for iframes.
 - Using alternative descriptive attributes for all images used.
 - Hide FontAwesome on icons that are not important for screenreaders to read.
-- Ensuring sufficient contrast througout the color schemes.
+- Ensuring sufficient contrast throughout the color schemes.
 - Fixing navbar at top of screen so that it is always possible to find the right information.
 
 ## Technologies Used
@@ -182,7 +180,7 @@ Font Awesome - For the icons on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-Google Dev Tools Lighthouse - For performance, accessibility, Best Practise and SEO
+Google Dev Tools Lighthouse - For performance, accessibility, Best Practices and SEO
 
 Pexels - For downloading and sizing images used.
 
@@ -204,21 +202,21 @@ The live link can be found here - https://kristofergab.github.io/reality-check/
 
 ## __Testing__ 
 ---
-This website is built for Desktop viewing in mind and is therefor optimized for this purpose. Testing has been done during the developments different stages with lighthouse as a main resource to ensure the best performance possible at the same time as accessibility and best pratices are followed and addherd to. Chrome dev-tools was the main source for designing the site where the Inspect window was constantly being observed to ensure the intended results. 
+This website is built for Desktop viewing in mind and is therefor optimized for this purpose. Testing has been done during the developments different stages with lighthouse as a main resource to ensure the best performance possible at the same time as accessibility and best practices are followed and adhered to. Chrome dev-tools was the main source for designing the site where the Inspect window was constantly being observed to ensure the intended results. 
 
 This is the final result for the deployed website:
 ![Lighthouse Test 100%](assets/images/readme-img/lighthouse-results-desktop-reality-check-100.JPG)
 
-In the beggining the results on performance was very poor. Around 75% was all it could muster and alot of editing where made to ensure that this reached 100%. Some changes made to reach this:
+In the beginning the results on performance was very poor. Around 75% was all it could muster and a lot of editing where made to ensure that this reached 100%. Some changes made to reach this:
 - Lazy loading images
 - Resizing images that were to large.
 - Change format from jpg to webp.
 - Lazy load iframes
 - Change iframes to only load on click and instead just show an image of the video
 
-While desktop was the focus for the build, media queries have been added to make sure that it works on other devices as well, such as tablet and mobile. Due to the fixed navbar, detaild section, summary section, and to ensure high UX on different sized devices, as many as seven media queries were made. It works end responds well on different sizes but is not intended do be used on small mobile devices primarily.
+While desktop was the focus for the build, media queries have been added to make sure that it works on other devices as well, such as tablet and mobile. Due to the fixed navbar, detailed section, summary section, and to ensure high UX on different sized devices, as many as seven media queries were made. It works end responds well on different sizes but is not intended do be used on small mobile devices primarily.
 
-Even if the function is there on mobile devices it loses its performance, mostly due to img sizes optimized for desktop as can be seen on the image below. Also SEO is slightly less because of the small size on the checkboxes on the form.
+Even if the function is there on mobile devices it loses its performance, mostly due to image sizes optimized for desktop as can be seen on the image below. Also SEO is slightly less because of the small size on the checkboxes on the form.
 
 ![Lighthouse for mobilde](assets/images/readme-img/lighthouse-results-mobile-reality-check-deployed.JPG)
 
@@ -234,23 +232,23 @@ This one page site has been run through the W3C validator for HTML and the Jigsa
 ### Known Bugs
 
 After testing on Safari a few bugs were discovered:
-- The sites logos innerradius is squared insted of round. This is because the css command outline is not yet released.
+- The sites logos inner radius is squared instead of round. This is because the css command outline is not yet released.
 - When rotating the scaling of the detailed section is not correct and the iframes overlap underlying section.
 
 ### Unfixed Bugs
 
-Issues mentioned under Known Bugs section related to Safari is yet to be fixed. The outline issue is deemed acceptable. However, the overlaping issue is something that has to be handled in future release but accepted for now since it is fully functional in normal reading mode (not rotated).
+Issues mentioned under Known Bugs section related to Safari is yet to be fixed. The outline issue is deemed acceptable. However, the overlapping issue is something that has to be handled in future release but accepted for now since it is fully functional in normal reading mode (not rotated).
 
 
 ### User Stories Testing
 
 - __First Time Visitors__
-  - *I want to get easy and quick information about a field that interests me.* The Summary section is perfect for newcommers to get a quick glance at the information and to decide on further reading.
-![Sumary Section](assets/images/readme-img/summary-section-reality-check.JPG)
-  - *I want to understand what Reality Check is all about.* Landing page with welcoming text in combination with the summary section helps clearify this smoothly.
+  - *I want to get easy and quick information about a field that interests me.* The Summary section is perfect for newcomers to get a quick glance at the information and to decide on further reading.
+![Summary Section](assets/images/readme-img/summary-section-reality-check.JPG)
+  - *I want to understand what Reality Check is all about.* Landing page with welcoming text in combination with the summary section helps clarify this smoothly.
 ![Landing Page](assets/images/readme-img/landing-page-universe-img-reality-check.JPG)
-  - *I want to easily navigate through the page and find the information that I like.* The fixed navbar is the key here which simplifies navigating througout the websites different sections.
-  ![Nav Bar](assets/images/readme-img/navbar-reality-check.JPG)
+  - *I want to easily navigate through the page and find the information that I like.* The fixed navbar is the key here which simplifies navigating throughout the websites different sections.
+![Nav Bar](assets/images/readme-img/navbar-reality-check.JPG)
 
 - __Returning Visitors__
   - *I want to have the possibility to further my reading through other sources.* The included links from the summary section to wikipedia in combination of the iframe youtube videos in the detailed section is ensuring that other sources are incorporated.
@@ -258,6 +256,7 @@ Issues mentioned under Known Bugs section related to Safari is yet to be fixed. 
   - *I want to be able to see up-to-date information on the meet-ups that I would like to join.* The meet-up section ensures that users are able to easily pick up this information and note down what fits them most.
 ![Meet-up Times](assets/images/readme-img/meet-up-section-reality-check.JPG)
   - *I want to join in on the meet-ups that interests me.* The userform in connection to the meet-up section helps the users to easily join in on the meetings that fits their need and want to participate in. Clear requirements exist to ensure good UX and there are required fields in the form to make sure that the right information gets sent to the host.
+
 ![Join In](assets/images/readme-img/contact-form-reality-check.JPG)
 
 ### Full Testing
@@ -267,11 +266,11 @@ The website has been test on multiple devices with different screen sizes and re
 Devices tested on:
 - Desktop Display hp 24" screen
 - Large laptop with 20" screen
-- Iphone 11 Pro
+- iPhone 11 Pro
 - Huawei P20 Pro
-- Iphone SE
-- Iphone 8
-- Ipad 2 Air
+- iPhone SE
+- iPhone 8
+- iPad Air 2
 
 Browsers tested on:
 - Chrome
@@ -282,27 +281,27 @@ Browsers tested on:
 Functionality tests:
 - All links have been tested for internal linking within the site and verified so that it takes the user to the correct section. All links work as expected.
 - The links to external websites has also been tested and they all open in a new tab and takes you to intended webpage, both for wikipedia links and for footer links.
-- All iframe videos play the intended content in the detailed section and is possible to start & stop as intended and can also be opend in new tab if larger viewing window is desired.
-- The form has been checked so that it is not possible to "Join In" without filling in the required fields - Name and email. The email input checks and makes sure that it is a valid adress. The checkmarks can be filld in or left out according to the user wishes.
+- All iframe videos play the intended content in the detailed section and is possible to start & stop as intended and can also be opened in new tab if larger viewing window is desired.
+- The form has been checked so that it is not possible to "Join In" without filling in the required fields - Name and email. The email input checks and makes sure that it is a valid address. The checkmarks can be filled in or left out according to the user wishes.
 
 ## Credits 
 ---
 
 ### Content 
 
-In this section all the webpages that where used as help for the development of this site will be listed. First the link to the website will be presented and then the information what the site was used for explained right after the link.
+In this section all the webpages that were used as help for the development of this site will be listed. First the link to the website will be presented and then the information what the site was used for explained right after the link.
 
 https://www.w3schools.com/css/css3_images.asp
 https://www.w3schools.com/css/css3_object-fit.asp
 https://www.w3schools.com/css/css_align.asp
-for imgages
+for images
 
 https://stackoverflow.com/questions/52037809/add-alpha-channel-to-hex-color-declared-on-css-variable
 for opacity on hex
 
 https://blog.logrocket.com/how-create-double-border-css/
 https://developer.mozilla.org/en-US/docs/Web/CSS/border
-for dubble borders
+for double borders
 
 https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
 for centering div content
