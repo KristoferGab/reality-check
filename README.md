@@ -28,11 +28,9 @@ Reality Check is your one stop destination for getting all the different tech re
 * [Deployment](#deployment)
 * [Testing](#testing)
   * [Validator Testing](#validator-testing)
-  * [Solved Bugs](#solved-bugs)
   * [Known Bugs](#known-bugs)
   * [Unfixed Bugs](#unfixed-bugs)
   * [User Stories Testing](#user-stories-testing)
-  * [Lighthouse Testing](#lighthouse-testing)
   * [Full Testing](#full-testing)
 * [Credits](#credits)
   * [Content](#content)
@@ -208,20 +206,30 @@ The live link can be found here - https://kristofergab.github.io/reality-check/
 ---
 This website is built for Desktop viewing in mind and is therefor optimized for this purpose. Testing has been done during the developments different stages with lighthouse as a main resource to ensure the best performance possible at the same time as accessibility and best pratices are followed and addherd to. Chrome dev-tools was the main source for designing the site where the Inspect window was constantly being observed to ensure the intended results. 
 
-More general testing info ---------------------------
+This is the final result for the deployed website:
+![Lighthouse Test 100%](assets/images/readme-img/lighthouse-results-desktop-reality-check-100.JPG)
+
+In the beggining the results on performance was very poor. Around 75% was all it could muster and alot of editing where made to ensure that this reached 100%. Some changes made to reach this:
+- Lazy loading images
+- Resizing images that were to large.
+- Change format from jpg to webp.
+- Lazy load iframes
+- Change iframes to only load on click and instead just show an image of the video
+
+While desktop was the focus for the build, media queries have been added to make sure that it works on other devices as well, such as tablet and mobile. Due to the fixed navbar, detaild section, summary section, and to ensure high UX on different sized devices, as many as seven media queries were made. It works end responds well on different sizes but is not intended do be used on small mobile devices primarily.
+
+Even if the function is there on mobile devices it loses its performance, mostly due to img sizes optimized for desktop as can be seen on the image below. Also SEO is slightly less because of the small size on the checkboxes on the form.
+
+![Lighthouse for mobilde](assets/images/readme-img/lighthouse-results-mobile-reality-check-deployed.JPG)
 
 ### Validator Testing 
 
-This one page site has been run tr.....
+This one page site has been run through the W3C validator for HTML and the Jigsaw validator for CSS.
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkristofergab.github.io%2Freality-check%2F)
 - CSS
   - No errors were found when passing through the official [W3C (Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkristofergab.github.io%2Freality-check%2F&usermedium=all&vextwarning=&warning=1)
-
-### Solved Bugs
-
-Try to remember in steps what I had for bugs that was solved during the dev process.....
 
 ### Known Bugs
 
@@ -231,45 +239,51 @@ After testing on Safari a few bugs were discovered:
 
 ### Unfixed Bugs
 
-Issues mentioned under testing section related to Safari is yet to be fixed. The outline issue is deemed acceptable. However is the overlaping issue something that has to be handled in future release.
+Issues mentioned under Known Bugs section related to Safari is yet to be fixed. The outline issue is deemed acceptable. However, the overlaping issue is something that has to be handled in future release but accepted for now since it is fully functional in normal reading mode (not rotated).
+
 
 ### User Stories Testing
 
-- First Time Visitors
-  - I want to.... and then all goals listed with img...
+- __First Time Visitors__
+  - *I want to get easy and quick information about a field that interests me.* The Summary section is perfect for newcommers to get a quick glance at the information and to decide on further reading.
+![Sumary Section](assets/images/readme-img/summary-section-reality-check.JPG)
+  - *I want to understand what Reality Check is all about.* Landing page with welcoming text in combination with the summary section helps clearify this smoothly.
+![Landing Page](assets/images/readme-img/landing-page-universe-img-reality-check.JPG)
+  - *I want to easily navigate through the page and find the information that I like.* The fixed navbar is the key here which simplifies navigating througout the websites different sections.
+  ![Nav Bar](assets/images/readme-img/navbar-reality-check.JPG)
 
-- Returning Visitors
-  - Same here
-
-### Lighthouse Testing
-
-On the picture below the result of the finnished website can be viewed after running it through lighthouse one last time before deployment.
-
-![Lighthouse for desktop](assets/images/readme-img/lighthouse-results-desktop-reality-check.JPG)
-
-While desktop was the focus for the build, media queries have been added to make sure that it works on other devices as well, such as tablet and mobile. Due to the fixed navbar, detaild section, summary section, and to ensure high UX on different sized devices, as many as seven queries were made. It works end responds well on different sizes but is not intended do be used on small mobile devices.
-
-Even if the function is there on mobile devices it loses its performance, mostly due to img sizes optimized for desktop as can be seen on the image below.
-
-![Lighthouse for mobilde](assets/images/readme-img/lighthouse-results-mobile-reality-check.JPG)
+- __Returning Visitors__
+  - *I want to have the possibility to further my reading through other sources.* The included links from the summary section to wikipedia in combination of the iframe youtube videos in the detailed section is ensuring that other sources are incorporated.
+![Detailed Section](assets/images/readme-img/detailed-section-vr-reality-check.JPG)
+  - *I want to be able to see up-to-date information on the meet-ups that I would like to join.* The meet-up section ensures that users are able to easily pick up this information and note down what fits them most.
+![Meet-up Times](assets/images/readme-img/meet-up-section-reality-check.JPG)
+  - *I want to join in on the meet-ups that interests me.* The userform in connection to the meet-up section helps the users to easily join in on the meetings that fits their need and want to participate in. Clear requirements exist to ensure good UX and there are required fields in the form to make sure that the right information gets sent to the host.
+![Join In](assets/images/readme-img/contact-form-reality-check.JPG)
 
 ### Full Testing
 
-More text here ----------------
+The website has been test on multiple devices with different screen sizes and resolutions, using multiple different browser to ensure functionality and to find any potential bugs.
 
-After deployment the site has been tested on six different screen sizes with good and functional results:
+Devices tested on:
 - Desktop Display hp 24" screen
 - Large laptop with 20" screen
 - Iphone 11 Pro
 - Huawei P20 Pro
 - Iphone SE
 - Iphone 8
+- Ipad 2 Air
 
-The site is also tested on multiple web browsers:
+Browsers tested on:
 - Chrome
 - Edge
 - Firefox
 - Safari
+
+Functionality tests:
+- All links have been tested for internal linking within the site and verified so that it takes the user to the correct section. All links work as expected.
+- The links to external websites has also been tested and they all open in a new tab and takes you to intended webpage, both for wikipedia links and for footer links.
+- All iframe videos play the intended content in the detailed section and is possible to start & stop as intended and can also be opend in new tab if larger viewing window is desired.
+- The form has been checked so that it is not possible to "Join In" without filling in the required fields - Name and email. The email input checks and makes sure that it is a valid adress. The checkmarks can be filld in or left out according to the user wishes.
 
 ## Credits 
 ---
@@ -360,4 +374,7 @@ for text description in detailed section
 - Shvets Production
 - Tima Miroshnichenko
 
-Youtube videos! 
+Links to Youtube videos used:
+[Virtual reality](https://www.youtube.com/watch?v=i4Zt3JZejbg)
+[Augmented reality](https://www.youtube.com/watch?v=WxzcD04rwc8&t=2s)
+[Mixed reality](https://www.youtube.com/watch?v=uVAVSMyjWRg)
