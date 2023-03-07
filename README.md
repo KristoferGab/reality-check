@@ -24,7 +24,7 @@ Reality Check is your one stop destination for getting all the different tech re
   * [Accessibility](#accessibility)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
-  * [Frameworks Used](#frameworks-used)
+  * [Frameworks & Programs Used](#frameworks-&-programs-used)
 * [Deployment](#deployment)
 * [Testing](#testing)
   * [Validator Testing](#validator-testing)
@@ -44,30 +44,55 @@ Reality Check is your one stop destination for getting all the different tech re
 ## User Experience (UX)
 ---
 ### Initial Discussion
+Reality Check is an informative website that aims at increasing the understanding and awareness of the different tech realities available today. By utilizing different ways to get the information out by text and video the aim of the owners is to get more and more people to sign up to the different meet-up times and socialize and exchange knowledge and experience in the different fields.
 
 ### User Stories
 
 #### Client Goals
 
-My goals for this site
+- To get the information about VR, AR and MR out to the puplic.
+- To ensure that this information is avalable:
+  - for people absorbing information through different scenses.
+  - for different devices and screen sizes.
+- To get more people to join in on their meet-ups through signing up through the site.
 
 #### First Time Visitor Goals
 
+- I want to get easy and quick information about a field that interests me.
+- I want to understand what Reality Check is all about.
+- I want to easily navigate through the page and find the information that I like.
+
 #### Returning Visitor Goals
 
-
+- I want to have the possibility to further my reading through other sources.
+- I want to be able to see up-to-date information on the meet-ups that I would like to join.
+- I want to join in on the meet-ups that interests me.
 
 ## Design
 ---
 ### Color Scheme
 
+The color scheme was chosen by using th eye dropper tool from Chrome dev-tools on the hero image. Since the image was chosen first the theam was built around this color palettes. 
+
+It was checked on [mycolor.space](https://mycolor.space/?hex=%232E4159&sub=1) to ensure that the gradients where matching. Also som #hex colors where taken from the Love Running project delivered by Code Institute (off-white and dark-grey). 
+
+
 ### Typography
 
+Google Fonts was used for the chosen fonts to create a modern tech look:
+- Roboto Mono is used as headings and for the form submit button
+- Rubik is used for all other text in the body
+- Sans-serif is the backup font
+[Fontpair](https://www.fontpair.co/all) was used to find a good font pairing with Roboto Mono.
+
 ### Imagery
+All images was taken from [Pexels](https://www.pexels.com/) free library and all pictures used are credited bellow with the name of the kind photographers that share their work for free. 
 
 ### Wireframes
 
+Wireframes were created using the program Balsamiq for desktop use.
 
+![A wireframe image of Reality Check](assets/images/readme-img/wireframe-reality-check.JPG)
 
 ## Features 
 ---
@@ -132,22 +157,49 @@ We have included several features in this one-page website about the different t
 
 ### Accessibility
 
-
+During the development process the accessibility has been considered througout to ensure that it is user friendly for everyone. Constant checks has been made with the Chrome Dev tool Lighthouse to ensure this by:
+- Using aria-labels for iframes.
+- Using alternative descriptive attributes for all images used.
+- Hide FontAwesome on icons that are not important for screenreaders to read.
+- Ensuring sufficient contrast througout the color schemes.
+- Fixing navbar at top of screen so that it is always possible to find the right information.
 
 ## Technologies Used
 ---
 ### Languages Used
 
-### Frameworks Used
+In this project HTML and CSS were used to create this site.
 
+### Frameworks & Programs Used
 
+Balsamiq - Used to create wireframe.
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the icons on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+Google Dev Tools Lighthouse - For performance, accessibility, Best Practise and SEO
+
+Pexels - For downloading and sizing images used.
+
+Cloudconvert - to convert jpg to webp format.
+
+Favicon.io To create favicon.
+
+Am I Responsive? - To show the website image on a range of devices.
 
 ## Deployment
 ---
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the main Branch
-  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  1.  In the GitHub repository, navigate to the Settings tab 
+  2.  From the source section drop-down menu, select the main Branch
+  3.  Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://kristofergab.github.io/reality-check/ 
 
