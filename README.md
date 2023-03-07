@@ -4,11 +4,76 @@ Reality Check is your one stop destination for getting all the different tech re
 
 ![Responsive Mockup for Reality Check](assets/images/readme-img/responsive-design-reality-check.JPG)
 
-## Features 
+[Check out the website here!](https://kristofergab.github.io/reality-check/)
 
+
+
+## CONTENTS
+---
+* [User Experience](#user-experience)
+  * [Initial Discussion](#initial-discussion)
+  * [User Stories](#user-stories)
+* [Design](#design)
+  * [Color Scheme](#color-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+* [Features](#features)
+  * [General Features](#general-features)
+  * [Features Left To Implement](#features-left-to-implement)
+  * [Accessibility](#accessibility)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks Used](#frameworks-used)
+* [Deployment](#deployment)
+* [Testing](#testing)
+  * [Validator Testing](#validator-testing)
+  * [Solved Bugs](#solved-bugs)
+  * [Known Bugs](#known-bugs)
+  * [Unfixed Bugs](#unfixed-bugs)
+  * [User Stories Testing](#user-stories-testing)
+  * [Lighthouse Testing](#lighthouse-testing)
+  * [Full Testing](#full-testing)
+* [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+---
+---
+
+
+## User Experience (UX)
+---
+### Initial Discussion
+
+### User Stories
+
+#### Client Goals
+
+My goals for this site
+
+#### First Time Visitor Goals
+
+#### Returning Visitor Goals
+
+
+
+## Design
+---
+### Color Scheme
+
+### Typography
+
+### Imagery
+
+### Wireframes
+
+
+
+## Features 
+---
 We have included several features in this one-page website about the different tech realities out there. These features will be categorized in separate titles to enhance its intended use and functions.
 
-### Existing Features
+### General Features
 
 - __Navigation Bar__
 
@@ -65,9 +130,68 @@ We have included several features in this one-page website about the different t
 
 - The detailed section shall in the future be located att the same space on the site with the JavaScript functionality to change information with radio-button choices instead of having to scroll further down.
 
-## __Testing__ 
+### Accessibility
 
-This website is built for Desktop viewing in mind and is therefor optimized for this purpose. Testing has been done during the developments different stages with lighthouse as a main resource to ensure the best performance possible at the same time as accessibility and best pratices are followed and addherd to. Chrome dev-tools was the main source for designing the site where the Inspect window was constantly being observed to ensure the intended results. On the picture below the result of the finnished website can be viewed after running it through lighthouse one last time before deployment.
+
+
+## Technologies Used
+---
+### Languages Used
+
+### Frameworks Used
+
+
+
+## Deployment
+---
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://kristofergab.github.io/reality-check/ 
+
+
+## __Testing__ 
+---
+This website is built for Desktop viewing in mind and is therefor optimized for this purpose. Testing has been done during the developments different stages with lighthouse as a main resource to ensure the best performance possible at the same time as accessibility and best pratices are followed and addherd to. Chrome dev-tools was the main source for designing the site where the Inspect window was constantly being observed to ensure the intended results. 
+
+More general testing info ---------------------------
+
+### Validator Testing 
+
+This one page site has been run tr.....
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkristofergab.github.io%2Freality-check%2F)
+- CSS
+  - No errors were found when passing through the official [W3C (Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkristofergab.github.io%2Freality-check%2F&usermedium=all&vextwarning=&warning=1)
+
+### Solved Bugs
+
+Try to remember in steps what I had for bugs that was solved during the dev process.....
+
+### Known Bugs
+
+After testing on Safari a few bugs were discovered:
+- The sites logos innerradius is squared insted of round. This is because the css command outline is not yet released.
+- When rotating the scaling of the detailed section is not correct and the iframes overlap underlying section.
+
+### Unfixed Bugs
+
+Issues mentioned under testing section related to Safari is yet to be fixed. The outline issue is deemed acceptable. However is the overlaping issue something that has to be handled in future release.
+
+### User Stories Testing
+
+- First Time Visitors
+  - I want to.... and then all goals listed with img...
+
+- Returning Visitors
+  - Same here
+
+### Lighthouse Testing
+
+On the picture below the result of the finnished website can be viewed after running it through lighthouse one last time before deployment.
 
 ![Lighthouse for desktop](assets/images/readme-img/lighthouse-results-desktop-reality-check.JPG)
 
@@ -76,6 +200,10 @@ While desktop was the focus for the build, media queries have been added to make
 Even if the function is there on mobile devices it loses its performance, mostly due to img sizes optimized for desktop as can be seen on the image below.
 
 ![Lighthouse for mobilde](assets/images/readme-img/lighthouse-results-mobile-reality-check.JPG)
+
+### Full Testing
+
+More text here ----------------
 
 After deployment the site has been tested on six different screen sizes with good and functional results:
 - Desktop Display hp 24" screen
@@ -91,35 +219,8 @@ The site is also tested on multiple web browsers:
 - Firefox
 - Safari
 
-### Safari Bugs
-
-After testing on Safari a few bugs were discovered:
-- The sites logos innerradius is squared insted of round. This is because the css command outline is not yet released.
-- When rotating the scaling of the detailed section is not correct and the iframes overlap underlying section.
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkristofergab.github.io%2Freality-check%2F)
-- CSS
-  - No errors were found when passing through the official [W3C (Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkristofergab.github.io%2Freality-check%2F&usermedium=all&vextwarning=&warning=1)
-
-### Unfixed Bugs
-
-Issues mentioned under testing section related to Safari is yet to be fixed. The outline issue is deemed acceptable. However is the overlaping issue something that has to be handled in future release.
-
-## Deployment
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the main Branch
-  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://kristofergab.github.io/reality-check/ 
-
-
 ## Credits 
-
+---
 
 ### Content 
 
@@ -206,3 +307,5 @@ for text description in detailed section
 - Moose Photos
 - Shvets Production
 - Tima Miroshnichenko
+
+Youtube videos! 
