@@ -256,52 +256,54 @@
             <h3>21:00</h3>
         </div>
     </section>
-    <!-- The form for signing up for the different meet-ups -->
-    <div id="form">
-        <form action="javascript:void(0);"> <!-- code copied from https://stackoverflow.com/questions/1818249/form-with-no-action-and-where-enter-does-not-reload-page -->
-            <label for="fname">First Name: *</label>
-            <input type="text" id="fname" placeholder="Enter your first name..." required>
+    <section>
+        <!-- The form for signing up for the different meet-ups -->
+        <div id="form">
+            <form action="javascript:void(0);"> <!-- code copied from https://stackoverflow.com/questions/1818249/form-with-no-action-and-where-enter-does-not-reload-page -->
+                <label for="fname">First Name: *</label>
+                <input type="text" id="fname" placeholder="Enter your first name..." required>
 
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" placeholder="Enter your last name...">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" placeholder="Enter your last name...">
 
-            <label for="email">Email Address: *</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+                <label for="email">Email Address: *</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email..." required>
 
-            <table>
-                <tr>
-                    <td>
-                        <label for="monday">Monday</label>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="day" id="monday" class="table-space">
-                    </td>
-                    <td>
-                        <label for="wednesday">Wednesday</label>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="day" id="wednesday">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="friday">Friday</label>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="day" id="friday" class="table-space">
-                    </td>
-                    <td>
-                        <label for="saturday">Saturday</label>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="day" id="saturday">
-                    </td>
-                </tr>
-            </table>
-            <input type="submit" value="Join In!" id="submit-button">
-        </form>
-    </div>
-
+                <table>
+                    <tr>
+                        <td>
+                            <label for="monday">Monday</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="day" id="monday" class="table-space">
+                        </td>
+                        <td>
+                            <label for="wednesday">Wednesday</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="day" id="wednesday">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="friday">Friday</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="day" id="friday" class="table-space">
+                        </td>
+                        <td>
+                            <label for="saturday">Saturday</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="day" id="saturday">
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="Join In!" id="submit-button">
+            </form>
+        </div>
+    </section>
+    
     <hr id="footer-hr">
 
     <!-- Footer with three links to steam, facebook and instagram -->
